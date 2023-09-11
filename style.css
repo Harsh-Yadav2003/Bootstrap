@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(65, 33, 84);
+}
+
+#logo{
+    margin-left: 28px;
+    margin-top: 15px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navbar-left{
+    float: right;
+    margin-bottom: -40px;
+}
+
+.box4{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgb(209, 180, 105);
+    border-radius: 8px;
+    color: rgb(209, 180, 105);
+    text-align: center;
+    padding-top: 10px; 
+    margin-top: -40px;
+    margin-right: 20px;
+    cursor: pointer;   
+}
+
+#input1{
+    height: 40px;
+    width: 280px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+.select1{
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+    outline: none;
+}
+
+select{
+    height: 40px;
+    width: 150px;
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+option{
+    width: 150px;
+    height: 300px;
+}
+
+#select2{
+    border: none;
+    outline: 0;
+    font-size: 18px;
+}
+
+#opt1{
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+}
+
+#hr{
+    width: 150px;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    line-height: 25px;
+    color: rgb(98, 98, 98);
+}
+
+.right{
+    padding-left: 1100px;
+    margin-top: -800px;
+    color: rgb(98, 98, 98);
+}
+
+#hr2{
+    width: 150px;
+}
+
+.bottom{
+    width: 1080px;
+    height: 800px;
+    padding-left: 220px;
+    margin-top: -440px;
+    word-spacing: 5px;
+}
+
+#intro{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#introtxt{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(98, 98, 98);
+}
+
+#Qs{
+    font-size: 32px;
+}
+
+#Qstxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#Css{
+    font-size: 32px;
+}
+
+#Csstxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.link1{
+    width: 840px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    line-break: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: auto;
+}
+
+#Js{
+    font-size: 32px;
+}
+
+#Jstxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#Bundles{
+    font-size: 32px;
+}
+
+#bndltxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.link2{
+    width: 840px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    line-break: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: auto;
+}
+
+#Seprate{
+    font-size: 32px;
+}
+
+#Sepratetxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.link3 {
+    width: 840px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    line-break: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: auto;
+}
+
+#Module{
+    font-size: 32px;
+}
+
+#Moduletxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#Components{
+    font-size: 32px;
+}
+
+#Componenttxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#newslect{
+    border: none;
+    width: 320px;
+    color: blue;
+    font-size: 16px;
+    outline: none;
+}
+
+#newopt{
+    color: black;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#starter{
+    font-size: 32px;
+}
+
+#Startertxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.link4{
+    width: 840px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    line-break: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: auto;
+}
+
+#Important{
+    font-size: 32px;
+}
+
+#Importanttxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#HTML5{
+    font-size: 32px;
+}
+
+#HTML5txt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.link5 {
+    width: 840px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    line-break: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: auto;
+}
+
+#meta{
+    font-size: 32px;
+}
+
+#metatxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.link6{
+    width: 840px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    line-break: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: auto;
+}
+
+#Box-sixing{
+    font-size: 32px;
+}
+
+#boxtxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.link7{
+    width: 840px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    line-break: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: auto;
+}
+
+#bxbtmtxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#Reboot{
+    font-size: 32px;
+}
+
+#Reboottxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#community{
+    font-size: 32px;
+}
+
+#communitytxt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+.footer{
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template-rows: 90px;
+    grid-template-columns: 170px 170px 170px 170px;
+    grid-gap: 20px;
+    background-color: rgb(237, 236, 236);
+    margin-top: 2940px;
+}
+
+.box{
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+    margin-left: 400px;
+    font-size: 17px;
+    height: 270px;
+    width: 150px;
+    background: none;
+    color: rgb(71, 71, 71);
+}
+
+.boxx{
+    height: 270px;
+    width: 270px;
+    margin-top: -340px;
+    margin-left: 50px;
+    background-color: rgb(237, 236, 236);
+}
+
+#btmbtstrap{
+    margin-top: -35px;
+    margin-left: 80px;
+}
